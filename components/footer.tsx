@@ -37,7 +37,7 @@ const navigation = {
 export default function Footer() {
   return (
     <footer className="border-t bg-background">
-      <div className="container mx-auto px-6 py-12">
+      <div className="mx-auto px-6 py-12">
         <div className="flex flex-col items-center justify-between lg:flex-row">
           <div className="flex items-center">
             <GraduationCap className="h-6 w-6" />

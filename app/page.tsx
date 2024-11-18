@@ -5,7 +5,7 @@ import { TopUniversities } from "@/components/top-universities";
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="mx-auto px-4 py-8">
       <section className="mb-12 text-center">
         <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
           Your Gateway to{" "}

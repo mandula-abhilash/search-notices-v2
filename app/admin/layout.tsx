@@ -20,7 +20,7 @@ export default function AdminLayout({
   const currentTab = pathname.split("/")[2] || "dashboard";
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="mx-auto px-4 lg:px-8 py-8">
       <div className="mb-8">
         <div className="mb-6 flex items-center gap-2">
           <Shield className="h-8 w-8 text-primary" />
@@ -29,7 +29,7 @@ export default function AdminLayout({
         <Card className="p-1">
           <Tabs value={currentTab} onValueChange={handleTabChange}>
             <TabsList className="w-full">
-              <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
+              <TabsTrigger value="">Dashboard</TabsTrigger>
               <TabsTrigger value="notifications">Notifications</TabsTrigger>
               <TabsTrigger value="results">Results</TabsTrigger>
               <TabsTrigger value="universities">Universities</TabsTrigger>

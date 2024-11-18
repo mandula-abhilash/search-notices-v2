@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <nav className="container flex h-16 items-center">
+      <nav className="flex px-4 lg:px-8 h-16 items-center">
         <Link href="/" className="mr-8 flex items-center space-x-2">
           <GraduationCap className="h-6 w-6" />
           <span className="hidden font-bold sm:inline-block">

@@ -48,7 +48,7 @@ export default function UniversityPage({
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="mx-auto px-4 py-8">
       <Toaster />
       <div className="mb-8">
         <div className="mb-4 flex items-center justify-between">

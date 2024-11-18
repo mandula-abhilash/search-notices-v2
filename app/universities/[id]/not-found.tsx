@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function NotFound() {
   return (
-    <div className="container mx-auto flex min-h-[600px] items-center justify-center px-4">
+    <div className="mx-auto flex min-h-[600px] items-center justify-center px-4">
       <div className="text-center">
         <h2 className="mb-4 text-2xl font-bold">University Not Found</h2>
         <p className="mb-8 text-muted-foreground">
